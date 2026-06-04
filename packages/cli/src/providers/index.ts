@@ -8,6 +8,7 @@ export const PROVIDER_IDS: ProviderId[] = [
   "antigravity",
   "opencode",
   "generic",
+  "test-provider",
 ];
 
 const REGISTRY: Record<ProviderId, ProviderResolver> = Object.fromEntries(
